@@ -26,11 +26,20 @@ namespace AlgorithmReview
             sq.Add(25);
             subSequence.IsValidSubsequence(ar, sq);*/
 
-            int[] arrMyValues = new int[] { 15 , 1, 2, 4, 16, 2, 15};
+            //int[] arrMyValues = new int[] { 15 , 1, 2, 4, 16, 2, 15};
             //FirstMissingNumber.firstMissingPositive(arrMyValues);
 
-            quickSort.QuickSort(arrMyValues);
-            Array.ForEach(arrMyValues, Console.WriteLine);
+            //quickSort.QuickSort(arrMyValues);
+            //Array.ForEach(arrMyValues, Console.WriteLine);
+
+            String s = "A man, a plan, a canal: Panama";
+            if (validPalindrome.IsPalindrome(s))
+            {
+                Console.WriteLine("True");
+            }else
+            {
+                Console.WriteLine("False");
+            }
 
         }
     }
