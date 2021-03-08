@@ -6,7 +6,7 @@ namespace AlgorithmReview
 {
     class SeparatingString
     {
-        public static void Main()
+        public static void SeperateString()
         {
             /*
             string phrase = "this is a new word";
