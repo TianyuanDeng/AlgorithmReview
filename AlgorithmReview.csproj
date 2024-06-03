@@ -6,11 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Collections" Version="4.3.0" />
+    <Compile Include="88-mergeSortedArray.cs" />
+    <Compile Include="MainMethod.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Verisk】\Verisk.csproj" />
+    <PackageReference Include="System.Collections" Version="4.3.0" />
   </ItemGroup>
 
 </Project>

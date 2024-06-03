@@ -27,11 +27,5 @@ namespace AlgorithmReview
                 characters[s - 'a'] = 0;
             }
         }
-
-        //public static void Main()
-        //{
-        //    String str = "aaabbcca";
-        //    printCharWithFreq(str);
-        //}
     }
 }
