@@ -5,7 +5,11 @@
     <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="System.Collections" Version="4.3.0" />
+    <Compile Include="88-mergeSortedArray.cs" />
+    <Compile Include="MainMethod.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+  </ItemGroup>
 </Project>
