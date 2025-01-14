@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+//using HashSet.PairSum;
+using BinarySearch.CuttingWood;
 
 namespace AlgorithmReview
 {
@@ -8,14 +10,11 @@ namespace AlgorithmReview
     {
         public static void Main()
         {
-            String s = "aaAbcd,!";
-            if (CheckDuplacte.CheckDuplactedChar(s))
-            {
-                Console.WriteLine("No, it does not have duplacted char");
-            }else
-            {
-                Console.WriteLine("Yes, it has duplacted char");
-            }
+            int[] list = new int[] {232, 124, 456};
+            int target = 7;
+
+            int ans = Solution.CuttingWood(list, target);
+            Console.WriteLine($"Ans is {ans}");
         }
     }
 }
