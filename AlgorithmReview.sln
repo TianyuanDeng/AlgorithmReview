@@ -5,12 +5,6 @@ VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmReview", "AlgorithmReview.csproj", "{87B10C2B-2BFF-48F0-AE42-CCA991BB7988}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroSoft", "..\MicroSoft\MicroSoft.csproj", "{746CEBD7-FBB3-4788-B4E0-80859B0EC766}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSystem", "..\BankSystem\BankSystem.csproj", "{27507059-40E7-44EA-8C37-5EED7A142820}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verisk", "..\Verisk】\Verisk.csproj", "{970ADFCD-59C3-4E87-AE8E-DBBF60CFEC75}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

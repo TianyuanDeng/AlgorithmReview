@@ -3,10 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="88-mergeSortedArray.cs" />
     <Compile Include="MainMethod.cs" />
+    <Compile Include="BinarySearch\CuttingWood.cs" />
   </ItemGroup>
 
   <ItemGroup>
