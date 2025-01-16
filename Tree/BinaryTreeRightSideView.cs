@@ -12,6 +12,8 @@ public class Solution {
             int size = queue.Count;
             for (int i = 0; i < size; i++) {
                 TreeNode node = queue.Dequeue();
+
+                //Add counter to track the rightmost node 
                 if (i == size - 1) {
                     result.Add(node.val);
                 }
