@@ -25,10 +25,12 @@ public class Solution {
         int leftTreeSize = rootIndex - inStart;
 
         // 递归构造左子树
-        root.left = Build(preorder, preStart + 1, preStart + leftTreeSize, inorder, inStart, rootIndex - 1, inorderIndexMap);
+        root.left = Build(preorder, preStart + 1, preStart + leftTreeSize, 
+            inorder, inStart, rootIndex - 1, inorderIndexMap);
 
         // 递归构造右子树
-        root.right = Build(preorder, preStart + leftTreeSize + 1, preEnd, inorder, rootIndex + 1, inEnd, inorderIndexMap);
+        root.right = Build(preorder, preStart + leftTreeSize + 1, preEnd, 
+            inorder, rootIndex + 1, inEnd, inorderIndexMap);
 
         return root;
     }
