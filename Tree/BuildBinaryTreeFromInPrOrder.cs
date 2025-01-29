@@ -12,7 +12,9 @@ public class Solution {
     }
 
     private TreeNode Build(int[] preorder, int preStart, int preEnd, 
-    int[] inorder, int inStart, int inEnd, 
+    int[] inorder,
+    int inStart, 
+    int inEnd, 
     Dictionary<int, int> inorderIndexMap) {
         if (preStart > preEnd || inStart > inEnd) return null;
 
